@@ -16,8 +16,10 @@ h1 {
 }
 
 h2 {
-  color: blueviolet;
+  color: #fff;
   text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+  
 }
 
 @keyframes glow {
@@ -28,6 +30,10 @@ h2 {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0073e6, 0 0 40px #0073e6, 0 0 50px #0073e6, 0 0 60px #0073e6, 0 0 70px #0073e6;
   }
 }
+
+
+
+
 
 .song {
   padding-left: 10vh;
