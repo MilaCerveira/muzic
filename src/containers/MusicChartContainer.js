@@ -34,6 +34,11 @@ const MusicChartContainer = () => {
     return(
         <>
         <h1>Muzic Chartz Top 20</h1>
+        <div className="sign">
+	    <span className="sign__word">no</span>
+	    <span className="sign__word">festival</span>
+	    <span className="sign__word">today</span>
+        </div>
                 {songsNodes}
         </>
     )
